@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    margin-top: 110px;
+    margin-bottom: 110px;
+    padding-left: 400px;
+    font-size: 80px;
+    color: black;
+    font-weight: bold;
+}
+span{
+    color: #98189a;
+    text-decoration: underline;
+}
+.note{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+table{
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+td{
+    width: 28%;
+    padding-top: 30px;
+    background-color: #f6f8fa;
+
+}
+button{
+    cursor: pointer;
+    width: 15%;
+    padding: 10px;
+    background-color: #993cab;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin: 60px;
+    border: none;
+    font-size: 20px;
+    margin-left: 550px;
+}
+.about{
+    padding-left: 150px;
+}
+.p1{
+    padding-top: 20px;
+    padding-left: 150px;
+    font-size: 18px;
+    text-align: justify;
+}
+.first{
+    width: 35%;
+    padding-left: 60%;
+    
+}
+.learn{
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 220px;
+    padding-bottom: 140px;
+}
+.all{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 140px;
+    padding-bottom: 65px;
+}
+h3{
+    font-size: 25px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+.p2{
+    font-size: 15px;
+    padding-left: 150px;
+    text-align: justify;
+
+}
+.footer{
+    background-color: #2d3990;
+    color: white;
+    height: 300px;
+    padding-top: 3px;
+    /* padding-left: 150px; */
+}
+.ul1{
+    padding-left: 170px;
+    list-style-image: url(./location.png);
+    padding-top: 10px;
+    
+}
+.ul2{
+    padding-left: 170px;
+    padding-top: 10px;
+    list-style-image: url(./telephone.png);
+}
+.ul3{
+    padding-left: 170px;
+    padding-top: 10px;
+    list-style-image: url(./mail.png);
+}
+
+.last{
+    background-color: #851e98;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover{
+    text-decoration: underline;
+    color: #095aaf;
+}
