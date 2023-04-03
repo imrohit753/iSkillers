@@ -18,7 +18,7 @@ img{
     font-weight: bold;
 }
 span{
-    color: #ff0000;
+    color: #98189a;
     text-decoration: underline;
 }
 .note{
@@ -31,6 +31,8 @@ table{
     padding-left: 150px;
     font-size: 30px;
     font-weight: bold;
+    align-items: center;
+    
 }
 td{
     width: 28%;
@@ -42,7 +44,7 @@ button{
     cursor: pointer;
     width: 15%;
     padding: 10px;
-    background-color: #993cab;
+    background: linear-gradient(90deg, #9ba6dc, #98189a);
     border-radius: 5px;
     text-align: center;
     color: white;
@@ -89,7 +91,7 @@ h3{
 
 }
 .footer{
-    background-color: #2d3990;
+    background: linear-gradient(90deg, #293b90, #98189a);
     color: white;
     height: 300px;
     padding-top: 3px;
@@ -97,23 +99,23 @@ h3{
 }
 .ul1{
     padding-left: 170px;
-    list-style-image: url(./location.png);
+    list-style-image: url(./images/location.png);
     padding-top: 10px;
     
 }
 .ul2{
     padding-left: 170px;
     padding-top: 10px;
-    list-style-image: url(./telephone.png);
+    list-style-image: url(./images/telephone.png);
 }
 .ul3{
     padding-left: 170px;
     padding-top: 10px;
-    list-style-image: url(./mail.png);
+    list-style-image: url(./images/mail.png);
 }
 
 .last{
-    background-color: #851e98;
+    background: linear-gradient(90deg, #98189a, #293b90);
     color: white;
     text-align: center;
     padding: 20px;

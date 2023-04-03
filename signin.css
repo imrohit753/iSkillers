@@ -13,7 +13,7 @@ body{
     margin-top: 100px;
 }
 .head{
-    background-color: #821f98;
+    background: linear-gradient(90deg,#293b90,#98189a);
     color: white;
     padding: 30px;
     font-weight: bold;
@@ -23,16 +23,17 @@ body{
     text-align: center;
 }
 .logo{
-    height: 300px;
+    height: 350px;
     background-color: white;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    box-shadow: 0px 2px 3px black;
+    box-shadow: 0px 3px 5px black ;
 }
 img{
-    width: 220px;
+    width: 180px;
     padding: 15px;
     margin: auto;
+    margin-bottom: 15px;
 }
 input{
     color:#821f98;
@@ -52,6 +53,7 @@ input{
     font-weight: bold;
     padding-bottom: 25px;
     margin-top: 8px;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -63,13 +65,16 @@ a:hover{
 }
 .password{
     padding-left: 55px;
+    cursor: pointer;
 }
 button{
     width: 250px;
     font-size: 20px;
-    background-color: #821f98;
+    background: linear-gradient(90deg,#293b90,#98189a);
     color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 8px;
     outline-color:  none;
+    border: none;
+    margin-top: 20px;
 }

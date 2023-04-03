@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bree Serif', serif;
 }
 body{
     background-color: #fae6ff;
@@ -14,11 +14,11 @@ body{
     margin-bottom: 50px;
 }
 .head{
-    background-color: #821f98;
+    background: linear-gradient(90deg,#293b90,#98189a);
     color: white;
     padding: 30px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-align: center;
@@ -28,10 +28,11 @@ body{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: white;
-    box-shadow: 0px 2px 3px black;
+    box-shadow: 0px 3px 4px black;
+    
 }
 img{
-    width: 220px;
+    width: 180px;
     padding: 15px;
     margin: auto;
 }
@@ -44,8 +45,9 @@ input{
     border: 1px solid #821f98;
     border-radius: 5px;
     outline: none;
-    font-size: 15px;
-    font-weight: lighter;
+    font-size: 18px;
+    font-weight:lighter;
+    
 }
 ::placeholder{
     color: #821f98;
@@ -59,7 +61,7 @@ input{
     border: 1px solid #821f98;
     border-radius: 5px;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 4px;
     font-weight: lighter;
 }
@@ -75,7 +77,9 @@ input{
     font-weight: bold;
     padding-bottom: 25px;
     padding-left: 100px;
-
+    cursor: pointer;
+    margin-right: 50px;
+    
 }
 a{
     text-decoration: none;
@@ -86,16 +90,22 @@ a:hover{
     text-decoration: underline;
 }
 button{
+    cursor: pointer;
     width: 250px;
     font-size: 20px;
-    background-color: #821f98;
+    background: linear-gradient(90deg,#293b90,#98189a);
     color: white;
     border-radius: 20px;
     padding: 5px;
     outline-color:  none;
     margin-top: 25px;
+    border: none;
+    margin-top: 30px;
+    height: 40px;
+    box-shadow: 0 4px 2px -2px grey;
+    
 }
 .check{
     text-align: left;
-    margin-right: 50px;
+    margin-left: -190px;
 }
